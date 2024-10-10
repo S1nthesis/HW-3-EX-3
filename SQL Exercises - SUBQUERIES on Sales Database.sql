@@ -136,4 +136,4 @@ SELECT ord_date,
                              FROM orders b
                              WHERE a.ord_date = b.ord_date);
 
-/* The above query displays the order date and the total purchase amount of orders for each date where the total purchase amount for the day is greater than the maximum purchase amount plus 1000 for that date */
+/* The above query displays the order date and the total purchase amount of orders for each date where the total purchase amount for the day is greater than the highest purchase amount plus 1000 for that date */
