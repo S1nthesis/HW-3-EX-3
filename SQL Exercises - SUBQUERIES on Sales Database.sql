@@ -114,7 +114,7 @@ SELECT *
 /* The above query displays all the information of orders made by the salesman with the name 'Paul Adam' */
 
 
-/* 2. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands: */
+/* 2. Explain in plain English in one sentence what is the output of the following block of SQL commands: */
 
 SELECT *
   FROM orders
@@ -126,7 +126,7 @@ SELECT *
 
 
 
-/* 3 (bonus). Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands: */
+/* 3 (bonus). Explain in plain English in one sentence what is the output of the following block of SQL commands: */
 
 SELECT ord_date,
        SUM(purch_amt)

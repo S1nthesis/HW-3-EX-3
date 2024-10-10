@@ -103,7 +103,7 @@ EMP_IDNO EMP_FNAME       EMP_LNAME         EMP_DEPT
    839139 Maria           Foster                  57
 
 
-/* 1. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands:  */
+/* 1. Explain in plain English in one sentence what is the output of the following block of SQL commands:  */
 
 SELECT s.name,
        c.cust_name,
@@ -112,9 +112,9 @@ SELECT s.name,
   INNER JOIN customer c
     ON s.city = c.city;
 
-/* The above query displays the name of the salesman, the name of the customer, and the city of the customer where the salesman and customer are in the same city*/
+/* The above query displays the names of salespeople, the names of customers, and the city of customers where the salesperson's city is the same as the customer's city */
 
-/* 2. Explain in plain English in one sentence what is the output of the folloiwng block of SQL commands: */
+/* 2. Explain in plain English in one sentence what is the output of the following block of SQL commands: */
 
 SELECT c.cust_name AS "Customer Name",
        c.city,
@@ -125,4 +125,4 @@ SELECT c.cust_name AS "Customer Name",
     ON c.salesman_id = s.salesman_id
   WHERE s.commission > 0.12;
 
-/* The above query displays the name of the customer, the city of the customer, the name of the salesman, and the commission of the salesman where the commission of the salesman is greater than 0.12 */
+/* The above query displays the names of customers, the city of customers, the name of salesmen, and the commission of the salesmen where the commission of the salesmen is greater than 0.12 */
